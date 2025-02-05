@@ -48,43 +48,34 @@ The study focuses on key performance metrics for assessing variable influence:
 ![Image](https://github.com/user-attachments/assets/212e7988-0b00-48d6-bbe4-f644959c7ece)
 
 ## 6.	Interpretations of results: 
- - A.	To check whether the model is significant or not, we focus on the ANOVA table. In the table we check the significance value, and for this model
+ - **A.**	To check whether the model is significant or not, we focus on the ANOVA table. In the table we check the significance value, and for this model
           Let,         H0 = Model is Insignificant.
                   and H1 = Model is Significant.
 Now,                sig = 0.001 < p = 0.05 ………. Insignificant.
 The null hypothesis is rejected, the model is significant.
 
- - B.	          Adjusted R2 = 0.417 = 41.7%
+ - **B.**	          Adjusted R2 = 0.417 = 41.7%
         That means 41.7% of the variance in the DV or Outcome Variable is explained by the IVs or predictor variable.
 
- - C.	Now, we’ll check which are the variables significant, for the hierarchy of the variables.
-                  
-            
-These variables are significant. Now we’ll order them for check which variable is the most impactful.
-So, 
-For Hierarchy: we check the Beta Value of these variables.
-                           The bigger the Beta, the Higher the Impact.
-                           Always check magnitude value.
-                      
-Variables	Beta value	Order
-cp	0.222	I
-thalachh	0.187	III
-oldpeak	-0.158	IV
-caa	-0.197	II
-thall	-0.146	V
+ - **C.**	Now, we’ll check which are the variables significant, for the hierarchy of the variables.
+   
+![Image](https://github.com/user-attachments/assets/1be44eb0-21b6-4ec8-9dbe-2a3dcb47b7cb)
+
+These variables are significant. Now we’ll order them for check which variable is the most impactful.\
+So,\ 
+**For Hierarchy:** we check the Beta Value of these variables. The bigger the Beta, the Higher the Impact. Always check magnitude value.
+                      ![Image](https://github.com/user-attachments/assets/67f1542c-77cc-404e-8afc-a87dd93388a1)  
      The biggest beta value is of “cp” i.e. 0.222, followed by caa, thalachh, oldpeak, and thall. Hence, cp is the most impactful variable.
 This means that, if a person feels chest pain then it is a maximum possibility that the person is a heart patient or higher chance of getting a heart attack.
 
-7.	Conclusions and Recommendations:
-From our analysis, we can conclude that certain factors i.e. “cp” play a critical role in determining the heart disease patient, while others are less impactful. Among these factors, CP stands out as the most significant. 
-To reduce heart disease and chest pain, patients should start morning and evening exercise.
-And start eating a healthy diet, less workload, etc.
+## 7.	Conclusions and Recommendations:
+From our analysis, we can conclude that certain factors i.e. “cp” play a critical role in determining the heart disease patient, while others are less impactful. Among these factors, CP stands out as the most significant. To reduce heart disease and chest pain, patients should start morning and evening exercise and start eating a healthy diet, less workload, etc.
 
-8.	Limitations:
-•	The dataset should be large.
-•	The categorical variables, such as sex, were treated as fixed categories without exploring potential interactions or more granular subcategories, which might have revealed subtle effects.
-•	The analysis relies on a linear regression model, assuming linear relationships between predictors and the target variable. However, real-world relationships might be non-linear, leading to potential inaccuracies.
-•	Interaction effects between variables, such as how Chest pain and Cholesterol level might jointly impact charges, were not explored. This could provide deeper insights.
+## 8.	Limitations:
+ - 	The dataset should be large.
+ - 	The categorical variables, such as sex, were treated as fixed categories without exploring potential interactions or more granular subcategories, which might have revealed subtle effects.
+ - 	The analysis relies on a linear regression model, assuming linear relationships between predictors and the target variable. However, real-world relationships might be non-linear, leading to potential inaccuracies.
+ - 	Interaction effects between variables, such as how Chest pain and Cholesterol level might jointly impact charges, were not explored. This could provide deeper insights.
 
 
 
